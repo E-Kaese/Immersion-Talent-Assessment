@@ -1,0 +1,9 @@
+.dashboard {
+    width: 100%;
+}
+
+.option {
+    font-size: 30px;
+    cursor: pointer;
+    color: #A3A0A0;
+}

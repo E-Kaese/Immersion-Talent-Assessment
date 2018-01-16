@@ -1,0 +1,16 @@
+<div>
+    <i routerLink="/view" class="fa fa-chevron-left back m-3"></i>
+</div>
+<div class="row m-0 pt-md-5">
+    <div class="col-md-4 mt-md-5 pt-5 firstSection text-center">
+        <img src={{this.data.Avatar}} alt="avatar" class="img-fluid rounded-circle avatar {{this.data.gender}}">
+        <h2>{{this.data.Username}}</h2>
+    </div>
+    <div class="col-md-6 mt-5 pt-md-5 text-left">
+        <p>Gender: {{this.data.gender}}</p>
+        <p>Firstname: {{this.data.first_name}}</p>
+        <p>Lastname: {{this.data.last_name}}</p>
+        <p>Department: {{this.data.Department}}</p>
+        <p>Email: {{this.data.email}}</p>
+    </div>
+</div>

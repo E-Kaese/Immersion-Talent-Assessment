@@ -1,0 +1,19 @@
+.heading {
+    background-color: #56ccf2;
+    font-weight: bold;
+    min-height: 60px;
+    padding-top: 18px;
+}
+
+.data {
+    border-bottom: 2px solid #56ccf2;
+}
+
+.data>div {
+    padding-top: 18px;
+    min-height: 60px;
+}
+
+.viewProfile {
+    cursor: pointer;
+}

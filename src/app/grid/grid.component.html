@@ -1,0 +1,5 @@
+<div class="row m-0">
+    <div *ngFor="let item of mainService.employees" class="col-md-3">
+        <card imageSrc={{item.Avatar}} gender={{item.gender}} username={{item.Username}} department={{item.Department}} id={{item.id}}></card>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="card m-3 text-center {{gender}} p-2" (click)="this.view()">
+    <div class="icon {{gender}}-icon rounded-circle m-2">
+        <i *ngIf="gender=='Female'" class="fa fa-venus"></i>
+        <i *ngIf="gender=='Male'" class="fa fa-mars"></i>
+    </div>
+    <img src={{imageSrc}} alt="avatar" class="img-fluid rounded-circle mx-auto my-4 avatar {{gender}}" />
+    <h3>{{username}}</h3>
+    <h5>{{department}}</h5>
+</div>

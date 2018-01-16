@@ -1,0 +1,36 @@
+.avatar {
+    width: 75%;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.Female {
+    border: 2px solid #f261af;
+}
+
+.Male {
+    border: 2px solid #56ccf2;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    float: right;
+    position: absolute;
+    z-index: 10;
+}
+
+.Female-icon {
+    background-color: #f261af;
+}
+
+.Male-icon {
+    background-color: #56ccf2;
+}

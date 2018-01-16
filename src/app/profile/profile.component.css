@@ -1,0 +1,45 @@
+.firstSection {
+    border-right: 2px solid #56CCF2;
+}
+
+.avatar {
+    width: 60%;
+}
+
+.Female {
+    border: 2px solid #f261af;
+}
+
+.Male {
+    border: 2px solid #56ccf2;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 81px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    margin-left: 10%;
+}
+
+.back {
+    color: #56ccf2;
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .firstSection {
+        border: none;
+        border-bottom: 2px solid #56CCF2;
+    }
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
